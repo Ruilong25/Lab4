@@ -40,7 +40,7 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         });
-        RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup);
+        RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup3);
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
